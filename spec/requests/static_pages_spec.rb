@@ -26,11 +26,6 @@ describe "Static pages" do
       visit '/static_pages/help'
       page.should have_selector('title', text: "#{base_title} | Help")
     end
-
-    it 'looks like it passes in tork output' do
-      [1 2, 3, 4]
-      true.should_not be
-    end
   end
 
   describe "About page" do
