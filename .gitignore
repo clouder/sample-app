@@ -12,6 +12,7 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+spec/**/*.log
 /tmp
 
 # Ignore other unneeded files.
